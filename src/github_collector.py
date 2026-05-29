@@ -44,12 +44,12 @@ HEADERS = {
 # Each stratum: (search query, how many repos to pull). Tune REPOS_PER_QUERY
 # to control dataset size and API usage.
 SEARCH_STRATA = [
-    ("stars:>20000 language:python", 40),       # mature / lead-level
-    ("stars:1000..5000 language:python", 40),   # senior-level
-    ("stars:50..300 language:python", 45),      # junior-level
-    ("stars:0..3 language:python", 45),         # intern / low-value
-    ("boilerplate in:name stars:>20", 40),      # templates / boilerplate
-    ("starter-template in:name", 40),           # starter kits / replicas
+    ("stars:>20000 language:python", 85),       # mature / lead-level
+    ("stars:1000..5000 language:python", 85),   # senior-level
+    ("stars:50..300 language:python", 90),      # junior-level
+    ("stars:0..3 language:python", 90),         # intern / low-value
+    ("boilerplate in:name stars:>20", 80),      # templates / boilerplate
+    ("starter-template in:name", 80),           # starter kits / replicas
 ]
 
 PER_PAGE = 50
