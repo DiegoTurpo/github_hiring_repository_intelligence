@@ -1,1 +1,11 @@
-Video link will be added in the docs branch.
+5-minute pitch video — GitHub Hiring Repository Intelligence (Track A)
+
+Link: <PASTE YOUR VIDEO URL HERE>
+
+Suggested 5-minute outline:
+  0:00–0:30  Problem: estimate the engineering maturity a repo reflects (not the person).
+  0:30–1:30  Data: ~486 repos, stratified sampling, 13 GitHub signals -> text representation.
+  1:30–2:30  Weak supervision: Groq llama-3.1-8b-instant generates noisy labels (6 categories).
+  2:30–3:30  Model: DistilBERT fine-tuned with class-weighted loss (70/15/15 stratified split).
+  3:30–4:30  Results: 0.78 accuracy, 0.62 macro-F1; main confusion senior<->lead; limitations.
+  4:30–5:00  Use case + ethics: triage aid only, never an automated hiring decision.
