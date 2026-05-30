@@ -53,8 +53,9 @@ def build_text(row) -> str:
     topics = (f"{int(row['n_topics'])} topics" if row["n_topics"] > 0
               else "no topics")
 
+    name = str(row["full_name"]).split("/")[-1]
     return (
-        f"Repository in {row['language']} with {pop} popularity "
+        f"Repository named '{name}' in {row['language']} with {pop} popularity "
         f"({int(row['stars'])} stars, {int(row['forks'])} forks). "
         f"Maintained by {team}, {int(row['commits'])} total commits "
         f"({row['commits_per_contributor']} per contributor). "
