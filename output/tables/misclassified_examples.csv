@@ -1,0 +1,17 @@
+full_name,true_label,pred_label,pred_confidence
+adobe/aem-boilerplate,template,senior,0.2936
+amirmushichge/tribeV2_ViralAnalyser,junior,senior,0.3651
+marcoturi/react-redux-boilerplate,senior,lead,0.2991
+Sirveme/electro,low_value,intern,0.3286
+MicrosoftDocs/azure-docs-sdk-python,lead,senior,0.3788
+openai/plugins,senior,junior,0.2487
+wiltodelta/remove-ai-watermarks,senior,lead,0.4405
+chython/chython,senior,lead,0.4335
+Vivify-Ideas/nestjs-boilerplate,lead,template,0.4312
+xsrazy/Download-All-Tiktok-Videos,low_value,junior,0.282
+dancinlab/hexa-lang,senior,lead,0.386
+ohgnakrap9290/PGCHECK,junior,intern,0.2821
+anthropics/financial-services,lead,senior,0.3693
+siddsachar/Thoth,senior,lead,0.4813
+ChristianLempa/boilerplates,template,lead,0.4919
+tryHivemind/Hivemind,senior,junior,0.2972
